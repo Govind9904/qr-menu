@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza",
+    "price": 250,
+    "category": "Fast Food"
+  },
+  {
+    "id": 2,
+    "name": "Burger",
+    "price": 150,
+    "category": "Fast Food"
+  },
+  {
+    "id": 3,
+    "name": "Cold Drink",
+    "price": 80,
+    "category": "Beverage"
+  },
+  {
+    "id": 4,
+    "name": "Pasta",
+    "price": 220,
+    "category": "Italian"
+  }
+]

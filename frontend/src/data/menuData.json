@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza",
+    "price": 250,
+    "category": "Fast Food",
+    "description": "Wood-fired style crust with melty cheese.",
+    "prepTime": "15 min",
+    "type": "Veg"
+  },
+  {
+    "id": 2,
+    "name": "Burger",
+    "price": 150,
+    "category": "Fast Food",
+    "description": "Toasted bun loaded with crunchy veggies and sauce.",
+    "prepTime": "10 min",
+    "type": "Veg"
+  },
+  {
+    "id": 3,
+    "name": "Cold Drink",
+    "price": 80,
+    "category": "Beverage",
+    "description": "Refreshing chilled drink served over ice.",
+    "prepTime": "2 min",
+    "type": "Drink"
+  },
+  {
+    "id": 4,
+    "name": "Pasta",
+    "price": 220,
+    "category": "Italian",
+    "description": "Creamy sauce tossed with herbs and penne.",
+    "prepTime": "12 min",
+    "type": "Veg"
+  }
+]

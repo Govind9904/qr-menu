@@ -5,6 +5,7 @@ const Order = require("../models/Order");
 router.post("/orders", async (req, res) => {
   try {
     const { tableNumber, items } = req.body;
+    console.log(tableNumber,items)
 
     if (!Number.isInteger(tableNumber) || tableNumber <= 0) {
       return res.status(400).json({ message: "tableNumber must be a positive integer." });

@@ -63,15 +63,15 @@ function Menu() {
     }
 
     try {
-      await axios.post("http://localhost:5000/orders", {
+      await axios.post("http://192.168.1.44:8000/orders", {
         tableNumber: Number(tableNumber),
         items: cart,
       });
 
       alert("Order Placed");
       setCart([]);
-    } catch {
-      alert("Failed to place order. Please try again.");
+    } catch (err){
+      alert(err);
     }
   };
 

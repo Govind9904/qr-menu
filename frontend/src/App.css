@@ -79,7 +79,7 @@
     gap: 14px;
   }
 }
-}
+
 
 #next-steps {
   display: flex;
@@ -117,7 +117,7 @@
     border-top: none;
   }
 }
-}
+
 
 #docs {
   border-right: 1px solid var(--border);
@@ -190,7 +190,7 @@
     }
   }
 }
-}
+
 
 #spacer {
   height: 88px;
